@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(rektorat.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+      
+}
+
+nav{
+	width: 100%;
+	height:80px;
+	background-color: rgba(0, 0, 0, 0.6);	
+	line-height: 80px;
+    font-family: verdana;
+    background-repeat: no-repeat;
+
+}
+
+img.kiri{
+	float: left;
+	margin: 1px 10px;
+	position: static;
+	width:80px;
+	height: 80px;
+}
+.heading-style-left-padding {
+	float: left;
+	margin:auto;
+	position: static;
+	font-size: 20px;
+	color:white;
+	
+}
+
+nav ul{
+	float: right;
+	margin-right: 20px;
+	list-style-type: none;
+	background-repeat: no-repeat;
+
+}
+
+nav ul li{
+	
+	display: inline-block;
+	list-style: none;
+	font-family: verdana;
+ }
+
+nav ul li a:hover{
+	background-color: #e02626;
+	border-radius: 50px/50px;
+}
+
+nav li.active a{
+	background-color: #e02629;
+	color:#fff;
+	border-radius: 50px/50px;
+}
+
+nav ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 15px;
+	border:none;
+	transition: 0. 2s all;
+}
+.loginbox{
+	width:320px;
+	height:420px;
+	background:rgba(0, 0, 0, 0.6);
+	color:#fff;
+	top:60%;
+	left: 50%;
+	position:absolute;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+	padding: 70px 30px;
+	font-family: sans-serif;
+	border-radius: 15px;
+	background-repeat: no-repeat;
+
+}
+.logo{
+	width:100px;
+	height: 100px;
+	position: absolute;
+	top:-50px;
+	left:calc(50% - 50px);
+
+}
+h1{
+	margin: auto;
+	padding:0 0 20px;
+	text-align: center;
+	font-size: 22px;
+
+}
+.loginbox p{
+	margin:0;
+	padding:0;
+	font-weight: bold;
+
+}
+.loginbox input{
+	width:100%;
+	margin-bottom: 20px;
+}
+.loginbox input[type="text"], input[type="password"]
+{
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height:40px;
+	color: #fff;
+	font-size: 16px;
+
+
+}
+.button {
+	border: 1px solid transparent;
+	border-width: 6px;
+	text-decoration-line:none;
+	cursor: pointer;
+	outline:none;
+	float:right;
+	font-size:20pt;
+	background:red;
+	color:#fff;
+	font-size: 18px;
+	border-radius: 15px;
+	width: 95%;
+	text-align: center;
+	font-weight: bold;
+}
+.button:hover{
+	background: #fff;
+	color:#000;
+}
+.loginbox a{
+	color:white;
+	text-decoration: none;
+}
+.loginbox a:hover{
+	color:grey;
+	font-style: none;
+}

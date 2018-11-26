@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Organisasi</title>
+	<link rel="stylesheet" type="text/css" href="organisasi.css">
+	<script src="form.js"></script>
+</head>
+<body>
+	<header id="main">
+		<nav>
+    	    <a href="index.html"><img class="kiri" img src="logo.png" width="100" height="80"></a>	
+    	    <h3 class="tulisan">STRUKTUR ORGANISASI<br>UNIVERSITAS JEMBER</h3>
+
+        <ul>
+            <li class=""><a href="newberanda.html">Home</a></li>
+            <li><a href="Profil.html">Profil</a></li>
+            <li><a href="Organisasi.html">Organisasi</a></li>
+            
+         </ul>
+       </nav>
+	</header>
+	<section id="struktur">
+		<p id="judulstruktur">Struktur Organisasi<br>Universitas Jember</p>
+		<a href="lektor.html"><img id="rektor" src="element/rektor.jpg" width="100px"></a>
+		<p style="text-align: center;font-family: arial;font-size: 20px; margin-top: 10px; margin-bottom: 10px;">Rektor</p>
+		<img id= "bagan" src="element/bagan.png" width="570px">
+		<img id="wr1" src="element/wr1.jpg" width="100px">
+		<img id="wr2" src="element/wr2.jpg" width="100px">
+		<img id="wr3" src="element/wr3.jpg" width="100px">
+		<div class="rektor">
+			<p id="jabatan">WakilRektor1 WakilRektor2 WakilRektor3</p>
+		</div>
+	</section>
+	
+	<section id="fakultas">
+		<p style="font-size: 40px; font-family: arial; color: white; text-align: center; margin-top: 0px; padding-top: 40px; padding-bottom: 30px;">Fakultas</p>
+		<div class="fak">
+			<a href="ilkom.html"><div id="ILKOM"><p>Fakultas Ilmu Komputer</p></div></a>
+			<div id="FT"><p>Fakultas Teknik</p></div>
+			<div id="FEB"><p>Fakultas<br>Ekonomi dan Bisnis</p></div>
+			<div id="FH"><p>Fakultas Hukum</p></div>
+			<div id="FP"><p>Fakultas Pertanian</p></div>
+			<div id="FTP"><p>Fakultas Teknik Pertanian</p></div>
+			<div id="FKG"><p>Fakultas Kedokteran Gigi</p></div>
+			<div id="FK"><p>Fakultas Kedokteran</p></div>
+			
+		</div>
+	</section>
+	<section id="form">
+		<p id="judulform">Kritik dan Saran</p>
+		
+			<input type="radio" name="jabatan"> dosen
+			<input type="radio" name="jabatan"> mahasiswa
+			<input type="radio" name="jabatan"> staf
+			<input type="radio" name="jabatan"> umum <br>
+			<p>Nama Lengkap</p>
+			<input id="text" type="text" name="nama" placeholder="Masukkan Nama Lengkap"> <br>
+			<p>Fakultas</p>
+			<input id="text" type="text" name="fakultas" placeholder="Masukkan fakultas"> <br>
+			<p>E-mail</p>
+			<input id="text" type="text" name="email" placeholder="Masukkan email"> <br>
+			<p>Kritik & Saran</p>
+			<textarea style="width: 500px; height: 150px;"></textarea><br><br>
+			<input style="margin-bottom: 20px;" type="submit" onclick="get_nama()" name="kirim" value="kirim">
+		
+	</section>
+
+	<script src="form.js"></script>
+	
+	
+</body>
+</html>

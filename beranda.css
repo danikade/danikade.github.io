@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+
+#main{
+    width: 100%;
+    height: 80vh;
+    background-image:url(unej.png);
+    font-family: verdana;
+    background-repeat: no-repeat;
+}
+
+nav{
+	width: 100%;
+	height:70px;
+	background-color:#E1E1E1;	
+	line-height: 80px;
+    font-family: verdana;
+
+}
+
+img.kiri{
+	float: left;
+	margin: 1px 10px;
+	position: static;
+	width:70px;
+	height: 65px;
+}
+.tulisan{
+	float: left;
+	margin:auto;
+	position: static;
+	font-size: 20px;
+	color:black;
+	font-family: thin;
+	font-style: italic;
+	line-height: 27px;
+	padding-top: 5px;
+
+}
+
+nav ul{
+	float: right;
+	margin-right: 20px;
+	list-style-type: none;
+
+}
+
+nav ul li{
+	
+	display: inline-block;
+	list-style: none;
+	font-family: verdana;
+	color: #481C1C;
+ }
+
+nav ul li a:hover{
+	background-color: #e02626;
+	border-radius: 50px/50px;
+}
+
+nav li.active a{
+	background-color: #D12A2A;
+	color:#481C1C;
+	border-radius: 50px/50px;
+}
+
+nav ul li a{
+	text-decoration: none;
+	color: #481C1C;
+	padding: 5px 15px;
+	border:none;
+	transition: 0. 2s all;
+}
+
+.title{
+	position: absolute;
+	float: center;
+	top: 20%
+	left:50%
+	transform: translate(-50%-50%);
+	font-style:'gotham', 'arial', sans-serif;
+	font-family: arial;
+
+}
+
+.title h2{
+	color: #ffff ;
+	font-size: 35px;
+	margin:50px;
+	font-family:gotham;
+	padding-top: 100px;
+	line-height: 0px;
+	text-align: center;
+
+
+}
+.title h3{
+	color:white;
+	font-size: 13px;
+	text-align: center;
+	margin:0px 215px;
+	margin-top: 50px;
+	font-family:verdana;
+	opacity: 50%;
+	letter-spacing: 2px;
+	word-spacing: 10px;
+
+
+
+}
+
+#news{	
+	overflow: hidden;
+	background:none;
+	margin: 20px;
+
+}
+ #news .kolom{
+ 	width: 190px;
+ 	height: 170px;
+	background-color:white;
+	margin:30px;
+	margin-left: 132px;
+	margin-top: 50px;
+	padding:10px 20px 0 10px;
+	float: left;
+	color: #481C1C; 
+	border: 1px solid black;
+ }
+
+#footer{
+	background-color: #1D251D;
+	width: 100%;
+	height:20px;
+	font-family: sans-serif;
+}
+#footer p{
+	text-align: center;
+	color: white;
+	font-size: 15px;
+}
+
+@media screen and (max-width: 600px) {
+	.title h2 {
+		color: darkgrey;
+		font-size: 35px;
+		margin:30px;
+		font-family:gotham;
+		padding-top: 50px;
+		line-height: 0px;
+		text-align: center;
+	}
+
+	.title h3 {
+		color:white;
+		font-size: 10px;
+		text-align: center;
+		margin:0px 215px;
+		margin-top: 50px;
+		font-family:verdana;
+		letter-spacing: 2px;
+		word-spacing: 10px;
+	}
+}
